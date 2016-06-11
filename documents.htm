@@ -1,0 +1,110 @@
+﻿<!DOCTYPE HTML>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="en-US" lang="en-US" xml:lang="en-US" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta content="IE=11.0000" http-equiv="X-UA-Compatible" />
+    <title>My Coach Light</title>
+    <meta http-equiv="content-language" content="en-us" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-Frame-Options" content="allow">
+    <link href="a_files/flexi-styles.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="a_files/flexi-background.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="a_files/styles.css" rel="stylesheet" type="text/css" media="screen" />
+    <script src="a_files/flexi-background.js" type="text/javascript" charset="utf-8"></script>
+    <script src="a_files/md5.js" type="text/javascript" charset="utf-8"></script>
+
+    <!--[if lte IE 6]>
+	    <link href="a_files/styles_ie.css" rel="stylesheet" media="screen" type="text/css" />
+	<![endif]-->
+
+<script type="text/javascript">
+	
+	function Validate(){
+
+		document.location.href='documentsIn.htm';
+		return;
+
+		parent.Validate(document.getElementById('inpPassword').value);
+		if(parent.secure){
+			document.location.href='documentsIn.htm';
+			return;
+		}
+		alert("invalid password");
+	}
+
+</script>
+
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-51658146-1', 'mycoachlight.com');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="header">
+            <h1>Coach Light</h1><h1 style="position: absolute; margin-top: -57px; margin-left: 23px; letter-spacing: 1pt; font-size: 18pt;">Condominiums</h1>
+            <ul>
+                <li><a title="Home" href="home.htm">Home</a></li>
+                <li><a title="Documents" href="documents.htm">Documents</a></li>
+                <li><a title="News" href="news.htm">News</a></li>
+                <li><a title="Events" href="events.htm">Events</a></li>
+                <li><a title="Contacts" href="contacts.htm">Contacts</a></li>
+            </ul>
+        </div>
+        <hr/>
+
+        <div id="content">
+            <div id="picture" style="width: 100%; margin-bottom: 50px;">
+                <img style="position: absolute; margin-top: 178px; margin-left: -135px;" src="images/noPasswordRequired2.png"/>
+                <h2 style="font-size: 26pt;">Your investment, Your home, Our passion</h2>
+            </div>
+
+            <div id="box" style="top: 54px; left: 50px;">
+		<form>
+                    <h1>Member Login</h1>
+                    <a class="forgot" href="#">Forgot your username or password?</a>
+                    <input onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Username':this.value;" type="text" value="Username"/>
+                    <input onclick="this.value='';" onfocus="this.select()" onblur="this.value=!this.value?'Password':this.value;" type="password" value="Password" id="inpPassword"/>
+                    <input id="remember" type="checkbox" value="Remember"/>
+                    <div class="hover-opacity">
+                        <label for="remember">Remember me</label><br />
+                    </div>
+                    
+                    <div class="hover-opacity">
+                        <input type="button" value="Log In" onclick="Validate()" />
+                    </div>
+                    
+                </form>
+            </div>
+
+        </div>
+        
+        <div style="height: 50px;"></div>
+        
+        <div id="footer">
+            <ul>
+                <li><a title="Home" href="home.htm">Home</a></li>
+                <li><a title="Documents" href="documents.htm">Documents</a></li>
+                <li><a title="News" href="news.htm">News</a></li>
+                <li><a title="Events" href="events.htm">Events</a></li>
+                <li><a title="Contacts" href="contacts.htm">Contacts</a></li>
+                <li class="last"><a title="Sitemap" href="#">Sitemap</a></li>
+            </ul>
+            <p>
+                designed by <a title="myCoachLight.com" href="">myCoachLight.com</a>
+            </p>
+        </div>
+    </div>
+    <div id="liner"></div>
+
+
+</body>
+</html>
