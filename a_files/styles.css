@@ -201,8 +201,10 @@ a:hover {
 }
 
 .tblData {
+/* 
     margin-left: 200px;
-    width: 450px;
+*/
+    width: 650px;
     overflow-x: scroll;  
     overflow-y: scroll;
     height: 440px;
