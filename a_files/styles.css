@@ -241,6 +241,7 @@ a:hover {
 .treasurersReport .data td:nth-child(1), .treasurersReport .titles td:nth-child(1)
 { 
     text-align: left;
+    white-space: nowrap;
 }
 
 .data1:nth-child(even)
