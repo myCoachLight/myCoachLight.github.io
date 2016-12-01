@@ -166,9 +166,31 @@ a:hover {
 #content_brands p {
 	font: 1.2em/1.5em "Trebuchet MS", Arial, Helvetica, sans-serif; color: rgb(68, 68, 68); padding-bottom: 25px; border-bottom-color: rgb(224, 224, 224); border-bottom-width: 1px; border-bottom-style: solid; font-size-adjust: none; font-stretch: normal;
 }
+
+#content_brands ul {
+    padding-top: 10px;
+    padding-left: 40px; 
+}
+
+#content_brands li {
+    list-style: circle outside;
+	padding-bottom: 10px;
+}
+
+#content_brands td {
+	font: 1.2em/1.5em "Trebuchet MS", Arial, Helvetica, sans-serif; color: rgb(68, 68, 68); padding-bottom: 15px;
+    vertical-align: top;
+}
+
+#content_brands td:first-child {
+    white-space: nowrap;
+    text-align: right;
+}
+
 #content_brands .type p {
 	border: currentColor; border-image: none;
 }
+
 #lcol {
 	width: 325px; padding-top: 25px;
 }
