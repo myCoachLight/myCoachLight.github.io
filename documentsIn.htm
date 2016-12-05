@@ -27,6 +27,7 @@
         .type h4 
         {
             padding-bottom: 0px;
+            cursor: pointer;
         }
         .type p
         {
@@ -95,7 +96,7 @@
 
 
             <div class="type" style="padding-top: 30px;">
-                <h4><strong>All Things </strong>Parking</h4>
+                <h4 onclick="ShowHide('tblParking'); return false;"><strong>All Things </strong>Parking</h4>
                 <p>The towing company is Northwest Recovery, 847.255.7360. <a href="#" onclick="ShowHide('tblParking'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
                 <table id="tblParking" cellpadding='10' cellspacing='10' style="margin: auto; margin-top: 40px; margin-bottom: 40px; width: 550px; vertical-align: top; display: none;">
@@ -259,7 +260,7 @@
             </div>
 
             <div class="type">
-                <h4 style=""><strong>Board </strong>Meetings</h4>
+                <h4 onclick="ShowHide('tblBoard'); return false;"><strong>Board </strong>Meetings</h4>
                 <p>Members of the board meet monthly. Keep up with the business of the board by clicking <a href="#" onclick="ShowHide('tblBoard'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
                 <table id="tblBoard" cellpadding='10' cellspacing='10' style="margin: auto; width: 550px; vertical-align: top; display: none;">
@@ -388,7 +389,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>Treasurers </strong> Report</h4>
+                <h4 onclick="ShowHide('tblTreasurers'); return false;"><strong>Treasurers </strong> Report</h4>
                 <p>Income, Administrative Expenses, Maintenance Expenses, and Assets. Yawn. For details click <a href="#" onclick="ShowHide('tblTreasurers'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
                 <table id="tblTreasurers" cellpadding='10' cellspacing='10' style="margin: auto; width: 550px; vertical-align: top; display: none;">
@@ -444,7 +445,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>Things To Know About </strong>Pets</h4>
+                <h4 onclick="ShowHide('tblPets'); return false;"><strong>Things To Know About </strong>Pets</h4>
                 <p>No animal may be kept which the Board has determined to be dangerous or which has been designated as dangerous by any governmental agency. <a href="#" onclick="ShowHide('tblPets'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
                 <table id="tblPets" cellpadding='10' cellspacing='10' style="margin: auto; width: 550px; vertical-align: top; display: none;">
@@ -580,7 +581,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>The Park and </strong>Play Grounds</h4>
+                <h4 onclick="ShowHide('tblPark'); return false;"><strong>The Park and </strong>Play Grounds</h4>
                 <p>Please be <a href="#" onclick="ShowHide('tblPark'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
                 <table id="tblPark" cellpadding='10' cellspacing='10' style="margin: auto; width: 550px; vertical-align: top; display: none;">
@@ -724,7 +725,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>Our </strong>Balconies</h4>
+                <h4 onclick="ShowHide('tblCommonAreas'); return false;"><strong>Our </strong>Balconies</h4>
                 <p>
                     We are asking every resident to keep clean the balcony and patio areas. <a href="#" onclick="ShowHide('tblCommonAreas'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a>
                 </p>
@@ -850,7 +851,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>Our Hallway, Stairs, and </strong>Entranceway</h4>
+                <h4 onclick="ShowHide('tblEntranceway'); return false;"><strong>Our Hallway, Stairs, and </strong>Entranceway</h4>
                 <p>Let’s help each other by keeping our area clean.  If you know of anyone that is not cooperating – call the office this residents will be fined. <a href="#" onclick="ShowHide('tblEntranceway'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
                 <table id="tblEntranceway" cellpadding='10' cellspacing='10' style="margin: auto; width: 550px; vertical-align: top; display: none;">
@@ -931,7 +932,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>Our Basement Area and </strong>Laundry</h4>
+                <h4 onclick ="ShowHide('tblLaundry'); return false;"><strong>Our Basement Area and </strong>Laundry</h4>
                 <p>When using the Laundry facilities make sure you clean up after yourselves. Please set timers and be prompt.  Be mindful that others are waiting while you are using laundering facilities. <a href="#" onclick="ShowHide('tblLaundry'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
                 <table id="tblLaundry" cellpadding='10' cellspacing='10' style="margin: auto; width: 550px; vertical-align: top; display: none;">
@@ -1025,7 +1026,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>Storage </strong>Areas</h4>
+                <h4 onclick ="ShowHide('tblStorage'); return false;"><strong>Storage </strong>Areas</h4>
                 <p>Vitae elit aliquet convallis. Cras id orci. Ut massa tortor, et, varius et <a href="#" onclick="ShowHide('tblStorage'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
 
@@ -1081,7 +1082,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>Pest </strong>Control</h4>
+                <h4 onclick="ShowHide('tblPest'); return false;"><strong>Pest </strong>Control</h4>
                 <p> From time to time we will schedule Anderson Pest Control to inspect your unit.  If you expect to be out during that time. please make sure the office has a key to access your unit. Don’t forget to pull out the Stove and remove board from in front of the Hot Water Tank. <a href="#" onclick="ShowHide('tblPest'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
 
@@ -1137,7 +1138,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>Your Maintenance </strong>Crew</h4>
+                <h4 onclick="ShowHide('tblThermostats'); return false;"><strong>Your Maintenance </strong>Crew</h4>
                 <p>Remember, anything inside your unit is your responsibility. <a href="#" onclick="ShowHide('tblThermostats'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
 
@@ -1221,7 +1222,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>Temperature controls and </strong>Thermostats</h4>
+                <h4 onclick="ShowHide('tblThermostats'); return false;"><strong>Temperature controls and </strong>Thermostats</h4>
                 <p>Please keep your thermostat ON all the time. <a href="#" onclick="ShowHide('tblThermostats'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
 
@@ -1277,7 +1278,7 @@
             </div>
 
             <div class="type">
-                <h4><strong>Garbage </strong>Disposal</h4>
+                <h4 onclick="ShowHide('tblDisposal'); return false;"><strong>Garbage </strong>Disposal</h4>
                 <p>Please keep the dumpster cover closed at times. Rolling Meadows Ordinances 308.3.1 <a href="#" onclick="ShowHide('tblDisposal'); return false;" title="Read More"><strong>More &gt;&gt;</strong></a></p>
 
                 <table id="tblDisposal" cellpadding='10' cellspacing='10' style="margin: auto; width: 550px; vertical-align: top; display: none;">
