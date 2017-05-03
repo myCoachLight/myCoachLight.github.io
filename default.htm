@@ -22,6 +22,8 @@
 
 	<script type="text/javascript">
 
+
+
         var secure = false;
 		function Validate(value){
 			secure = ( "0d66fb43d9c78c7fd7cf3e53b71a0679" == md5(value) );
@@ -43,6 +45,7 @@
     <script src="a_files/jquery.min.js" type="text/javascript"></script>
     <script src="a_files/modalPopLite.js" type="text/javascript"></script>
     <script src="a_files/textRotator.js" type="text/javascript" charset="utf-8"></script>
+    
 
     <!--[if lte IE 6]>
         <link href="a_files/styles_ie.css" rel="stylesheet" media="screen" type="text/css" />
@@ -77,7 +80,7 @@
 
     <script type="text/javascript">
 
-        function cycleImages() {
+        function CycleImages() {
 
             var $active = $('#cycler .active');
             var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
@@ -104,7 +107,8 @@
                 speed: 4000
             });
 
-            setInterval('cycleImages()', 6000);
+            setInterval('CycleImages()', 6000);
+    
         })
 
 
@@ -113,7 +117,9 @@
 </head>
 
 <body>
-
+    
+    <!--#include virtual="menu.html" -->
+    
     <div id="wrap">
         <div id="header">
             <h1>Coach Light</h1><h1 style="position: absolute; margin-top: -57px; margin-left: 23px; letter-spacing: 1pt; font-size: 18pt; width: 200px;">Condominiums</h1>
@@ -161,7 +167,7 @@
             <div id="info">
                 <h3>Neighborhood Highlights</h3>
                 <p>
-                    &bull; Walk to exceptional and fordable eateries.  Culturally diverse and truly authentic. Bon Appetit! <a title="Read More" href="#" target="_blank">
+                    &bull; Walk to exceptional and affordable eateries.  Culturally diverse and truly authentic. Bon Appetit! <a title="Read More" href="#" target="_blank">
                         <strong>
                             More
                             &gt;&gt;
